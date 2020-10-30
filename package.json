@@ -1,0 +1,26 @@
+{
+  "name": "uni_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "linters": {
+      "static/js/**/*.js": [
+        "./node_modules/.bin/eslint --fix",
+        "git add"
+      ]
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/uni-app": "^1.4.3",
+    "eslint": "^7.12.1",
+    "husky": "^5.0.0-beta.0",
+    "lint-staged": "^10.5.0"
+  }
+}
