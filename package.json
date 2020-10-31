@@ -6,19 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "husky":{
-    "hooks":{
-      "pre-commit":"lint-staged"
-    }
-  },
-  "lint-staged": {
-    "linters": {
-      "static/js/**/*.{js,vue}": [
-        "eslint --fix",
-        "git add"
-      ]
-    }
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -33,5 +20,18 @@
     "lint-staged": "^10.5.0",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit":"lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,vue}": [
+        "eslint --fix",
+        "git add"
+      ]
+    }
   }
 }
