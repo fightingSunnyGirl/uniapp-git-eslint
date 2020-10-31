@@ -31,6 +31,7 @@
     "*.{js,jsx,vue}": [
       "prettier --write",
       "eslint --fix",
+      "prettier --write",
       "git add"
     ],
     "*.less": [
