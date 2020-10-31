@@ -13,7 +13,6 @@ export default {
     onShow () {
         // #ifdef H5
         console.log(document)
-
         // #endif
 
         // #ifdef APP-PLUS
