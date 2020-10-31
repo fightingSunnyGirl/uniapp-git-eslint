@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "unit-no-unknown":null,
+    "indentation": "tab",       
+    "color-hex-case": "lower", 
+    "color-hex-length":"long",
+    "max-empty-lines": 2,
+    "declaration-property-unit-whitelist":{
+      "unprefixed-property-name": ["em", "rem", "%", "s", "px", "upx","rpx"]
+    },
+    "unit-whitelist": ["em", "rem", "%", "s", "px", "upx","rpx"],
+    "number-leading-zero": "never",
+    "font-family-name-quotes":"always-where-required",
+    "declaration-colon-space-after":"always",
+    "declaration-block-no-duplicate-properties":true,
+    "selector-class-pattern":"^([a-z][a-z0-9]*)(_[a-z0-9]+)*$"
+  }
+}
