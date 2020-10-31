@@ -9,7 +9,7 @@
   },
   "lint-staged": {
     "linters": {
-      "static/js/**/*.js": [
+      "static/js/**/*.{js,vue}": [
         "./node_modules/.bin/eslint --fix",
         "git add"
       ]
