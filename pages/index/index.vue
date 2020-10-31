@@ -15,7 +15,6 @@ import home from './index.js'
 export default {
     ...home
 }
-console.log(b)
 </script>
 
 <style lang="less" scoped>

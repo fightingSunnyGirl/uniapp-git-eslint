@@ -30,7 +30,7 @@ module.exports = {
         'key-spacing' : ['error', { beforeColon : true }], // 要求在对象字面量的冒号和值之间存在至少有一个空格
         'no-nested-ternary' : 2, // 禁用嵌套的三元表达式
         'new-cap' : 'error', // 要求构造函数必须首字母大写开头
-        'semi-style' : ['error', 'last'], // 强制分号的位置
+        'semi-style' : ['error', 'last'], // 强制句尾出现分号报错
         'space-infix-ops' : ['error', { int32Hint : true }], // 操作符前后要带空格
         'spaced-comment' : ['error', 'always'], // 注释符后面必须有一个空白
         eqeqeq : 'error' // 强制使用 === 和 !==
