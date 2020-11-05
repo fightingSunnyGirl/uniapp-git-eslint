@@ -56,7 +56,6 @@
             }
         },
         "error" : {
-            //不存在的页面
             "url" : "hybird/html/error.vue"
         },
         "nvueLaunchMode" : "",
