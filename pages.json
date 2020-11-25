@@ -4,6 +4,12 @@
 		"style": {
 			"navigationBarTitleText": "uni-ui基础项目"
 		}
+	},
+	{
+		"path": "pages/test/index",
+		"style": {
+			"navigationBarTitleText": "测试页面"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

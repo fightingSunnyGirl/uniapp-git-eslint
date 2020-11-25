@@ -1,19 +1,16 @@
+/** @format */
+
 module.exports = {
     env : {
         browser : true,
         es2021 : true
     },
-    extends : [
-        'plugin:vue/essential',
-        'standard'
-    ],
+    extends : ['plugin:vue/essential', 'standard'],
     parserOptions : {
         ecmaVersion : 12,
         sourceType : 'module'
     },
-    plugins : [
-        'vue'
-    ],
+    plugins : ['vue'],
     rules : {
         camelcase : 2, // 强制驼峰法命名,
         indent : [2, 4], // 缩进风格
@@ -21,7 +18,7 @@ module.exports = {
         'init-declarations' : 1, // 声明时必须赋初值
         'no-console' : 1, // 不能有未定义的变量
         'no-var' : 2, // 不允许使用var
-        'no-undef' : 2, // 不能有未定义的变量
+        'no-undef' : 1, // 不能有未定义的变量
         'no-multi-assign' : 2, // 禁止连续赋值
         'no-multi-spaces' : 'error', // 禁止出现多个空格
         'block-spacing' : 'error', // 强制括号前后至少一个空格
