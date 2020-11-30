@@ -43,7 +43,15 @@ sass 预编译
 ### 项目启动
 1.npm install
 2.HbuilderX=>运行=>到相关平台
-
+3.开发期间启动指定编译页面 pages.json
+ "condition": { //编译模式配置，仅开发期间生效  
+	        "current": 0, //当前激活的编译模式（list 的索引项）  
+	        "list": [{  
+	            "name": "会员充值", //模式名称  
+	            "pathName": "pages/user/member/index", //启动页面，必选  
+	             "query": "id=1" //启动参数, QueryString 格式  
+	        }]  
+	    }
 ### 项目打包
 HbuilderX 版本要求（目前版本2.9.8 ,后续版本要求再议）
 
