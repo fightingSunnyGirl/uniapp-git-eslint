@@ -36,5 +36,8 @@
     "*.less": [
       "stylelint --syntax=less"
     ]
+  },
+  "dependencies": {
+    "vuex": "^3.6.0"
   }
 }
