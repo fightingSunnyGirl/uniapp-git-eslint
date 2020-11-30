@@ -24,6 +24,9 @@ export default {
         // 同步数据处理
         changeLoginStore () {
             this.$store.testStore.commit('changeLogStatus')
+        },
+        change (e) {
+            console.log(e)
         }
     }
 }

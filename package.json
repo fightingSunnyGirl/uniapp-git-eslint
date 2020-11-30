@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@dcloudio/uni-ui": "^1.2.8",
     "@types/uni-app": "^1.4.3",
     "eslint": "^7.12.1",
     "eslint-config-standard": "^16.0.0",
