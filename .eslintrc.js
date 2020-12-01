@@ -18,6 +18,7 @@ module.exports = {
         'init-declarations' : 1, // 声明时必须赋初值
         'no-console' : 1, // 不能有未定义的变量
         'no-var' : 2, // 不允许使用var
+        'prefer-const' : 0, // eslint强行将let改为const的解决办法
         'no-undef' : 1, // 不能有未定义的变量
         'no-multi-assign' : 2, // 禁止连续赋值
         'no-multi-spaces' : 'error', // 禁止出现多个空格
