@@ -1,0 +1,18 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+ },
+ "editor.rulers": [
+
+ ],
+ "editor.tokenColorCustomizations": null,
+ // 编辑器是否开启校验
+ "eslint.codeAction.showDocumentation": {
+   "enable": true
+ },
+ "editor.accessibilitySupport": "off",
+ "eslint.autoFixOnSave": true,
+ "notebook.kernelProviderAssociations": [
+]
+}
